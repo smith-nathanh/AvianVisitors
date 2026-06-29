@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>your birds</title>
-<meta name="description" content="A live bird collage from your window.">
+<title>your visitors</title>
+<meta name="description" content="A live wildlife collage from your window.">
 <link rel="icon" type="image/png" href="./favicon.png">
 <link rel="apple-touch-icon" href="./favicon.png">
 <!-- Apply the saved theme before first paint so dark mode doesn't flash
@@ -49,13 +49,13 @@
 
 <main class="stage">
   <header class="static-head">
-    <button type="button" class="pre" id="aboutLink">your birds</button>
+    <button type="button" class="pre" id="aboutLink">your visitors</button>
     <h1 id="staticTitle">Heard Recently</h1>
   </header>
   <div class="views" id="views">
 
     <!-- ========== View 1 - Collage ========== -->
-    <section class="view" id="v0" aria-label="Bird collage">
+    <section class="view" id="v0" aria-label="Wildlife collage">
       <div class="gcollage" id="collage"></div>
     </section>
 
@@ -130,7 +130,7 @@
         <img id="modalImg" src="" alt="" loading="eager">
         <div class="pose-toggle" id="modalPoseToggle" role="tablist" aria-label="Pose">
           <i class="seg-pill" aria-hidden="true"></i>
-          <button type="button" data-pose="1" aria-label="perched">
+          <button type="button" data-pose="1" aria-label="resting">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
               <path d="M3.5 6.5 C 4 4, 6 3, 8 4 C 10 3.6, 11.6 4.6, 12 6.5 L 11.5 8 C 11 9.6, 9.4 10.4, 8 10.4 C 6.4 10.4, 4.8 9.6, 4.2 8 Z"/>
               <circle cx="10.6" cy="5.7" r=".4" fill="currentColor"/>
@@ -139,16 +139,16 @@
               <path d="M8.6 10.4 L 8.9 12.2"/>
               <path d="M2 12.6 H 13"/>
             </svg>
-            <span class="tip">perched</span>
+            <span class="tip">resting</span>
           </button>
-          <button type="button" data-pose="2" aria-label="in flight">
+          <button type="button" data-pose="2" aria-label="active">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
               <path d="M1.5 8 Q 4.5 4, 7.5 7.5 Q 11 4, 14.5 8"/>
               <path d="M7.5 7.5 L 8 9.5"/>
               <circle cx="8.5" cy="7.2" r=".4" fill="currentColor"/>
               <path d="M8.6 7 L 10 6.6"/>
             </svg>
-            <span class="tip">in flight</span>
+            <span class="tip">active</span>
           </button>
         </div>
       </div>
@@ -187,10 +187,10 @@
   <div class="modal-backdrop" data-close="1"></div>
   <div class="about-card" role="document">
     <button type="button" class="modal-close" data-close="1" aria-label="close">×</button>
-    <p class="about-eyebrow">your birds</p>
-    <h2 id="aboutTitle">The birds outside your window</h2>
-    <p class="about-body">A tiny microphone identifies every passing bird with Cornell's <a href="https://birdnet.cornell.edu/" target="_blank" rel="noopener">BirdNET</a>. Each species shows up as an illustration in the collage, sized by how often it's been heard.</p>
-    <button type="button" class="about-explore" data-close="1">explore the birds →</button>
+    <p class="about-eyebrow">your visitors</p>
+    <h2 id="aboutTitle">The wildlife outside your window</h2>
+    <p class="about-body">A tiny microphone identifies every passing bird, frog, insect, and animal with Cornell's <a href="https://birdnet.cornell.edu/" target="_blank" rel="noopener">BirdNET</a>. Each species shows up as an illustration in the collage, sized by how often it's been heard.</p>
+    <button type="button" class="about-explore" data-close="1">explore →</button>
     </div>
 </div>
 
